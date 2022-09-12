@@ -1,8 +1,8 @@
 senic.cryptoyaml
 ================
 
-.. image:: https://travis-ci.org/getsenic/senic.cryptoyaml.svg?branch=master
-    :target: https://travis-ci.org/getsenic/senic.cryptoyaml
+.. image:: https://travis-ci.org/kafan1986/senic.cryptoyaml.svg?branch=master
+    :target: https://travis-ci.org/kafan1986/senic.cryptoyaml
 
 `cryptoyaml` is a python library to manage encrypted YAML files, its motivation was to provide an API for applications to read (and write) potentially sensitive configuration settings (i.e. passwords, personal user information) in encrypted form.
 

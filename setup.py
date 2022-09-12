@@ -77,10 +77,10 @@ setup(
             'tox',
         ],
     },
+#        [pytest11]
+#        cryptoyaml = cryptoyaml.testing
     entry_points="""
         [console_scripts]
         cryptoyaml = cryptoyaml.commands:main
-#        [pytest11]
-#        cryptoyaml = cryptoyaml.testing
     """,
 )

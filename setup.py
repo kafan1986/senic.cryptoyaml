@@ -27,7 +27,7 @@ LONG = (
 setup(
     name=name,
     version_format='{tag}.{commitcount}+{gitsha}',
-    url='https://github.com/getsenic/senic.cryptoyaml',
+    url='https://github.com/kafan1986/senic.cryptoyaml',
     author='Senic GmbH',
     author_email='tom@senic.com',
     description='A python library to manage encrypted YAML files.',

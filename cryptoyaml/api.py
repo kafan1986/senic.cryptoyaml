@@ -60,7 +60,7 @@ class CryptoYAML(object):
         if path.exists(self.filepath):
             with open(self.filepath, 'rb') as infile:
                 self.data = yaml.load(
-                    self.fernet.decrypt(infile.read()))
+                    self.fernet.decrypt(infile.read()), Loader=yaml.Loader)
         else:
             self.data = dict()
 

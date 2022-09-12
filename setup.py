@@ -82,5 +82,7 @@ setup(
     entry_points="""
         [console_scripts]
         cryptoyaml = cryptoyaml.commands:main
+        [pytest11]
+        cryptoyaml = cryptoyaml.testing
     """,
 )
